@@ -19,7 +19,7 @@ Route::get('/', function () {
     return view('welcome', compact('links','foto'));
 });
 
-Route::get('/otherpage', function () {
-    $links = config('store.links');
-    return view('other', compact('links'));
-});
+// Route::get('/otherpage', function () {
+//     $links = config('store.links');
+//     return view('other', compact('links'));
+// });
