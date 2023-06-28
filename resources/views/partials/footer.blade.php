@@ -5,13 +5,11 @@
             <div class="col-2 py-5">
                 <div class="list-group">
                     <span class="text-white fw-bold pb-3">DC COMICS</span>
-                    <div class="text-start">
-                        @foreach ($links as $link)
-                        <li class="nav-item m-1 footLinks">
-                            <a href="{{ $link['link'] }}">{{ $link['link'] }}</a>
-                        </li>
-                        @endforeach
+                    @foreach ($links as $link)
+                    <div class="text-start footLinks">
+                            <a class="border-0 text-start p-0" href="{{ $link['link'] }}">{{ $link['link'] }}</a>
                     </div>
+                        @endforeach
                     <span class="text-white fw-bold py-3">SHOP</span>
                     <div class="footLinks">
                         <a href="" class="border-0 text-start p-0">Shop Dc</a>
@@ -23,17 +21,38 @@
                 <div class="list-group">
                     <span class="text-white fw-bold pb-3">DC</span>
                     <div class="footLinks">
-                        <a href="" class="border-0 text-start p-0">Terms Of Use</a>
-                        <a href="" class="border-0 text-start p-0">Privacy policy(New)</a>
-                        <a href="" class="border-0 text-start p-0">Ad Choices</a>
-                        <a href="" class="border-0 text-start p-0">Advertising</a>
-                        <a href="" class="border-0 text-start p-0">jobs</a>
-                        <a href="" class="border-0 text-start p-0">Subscriptions</a>
-                        <a href="" class="border-0 text-start p-0">Talent Workshops</a>
+                        <div>
+                            <a href="" class="border-0 text-start p-0">Terms Of Use</a>
+                        </div>
+                        <div>
+
+                            <a href="" class="border-0 text-start p-0">Privacy policy(New)</a>
+                        </div>
+                        <div>
+                            <a href="" class="border-0 text-start p-0">Ad Choices</a>
+                        </div>
+                        <div>
+                            <a href="" class="border-0 text-start p-0">Advertising</a>
+                        </div>
+                        <div>
+                            <a href="" class="border-0 text-start p-0">jobs</a>
+                        </div>
+                        <div>
+                            <a href="" class="border-0 text-start p-0">Subscriptions</a>
+                        </div>
+                        <div>
+                            <a href="" class="border-0 text-start p-0">Talent Workshops</a>
+                        </div>
                         <a href="" class="border-0 text-start p-0">CPSC Certificates</a>
-                        <a href="" class="border-0 text-start p-0">Ratings</a>
-                        <a href="" class="border-0 text-start p-0">Shop Help</a>
-                        <a href="" class="border-0 text-start p-0">Contact Us</a>
+                        <div>
+                            <a href="" class="border-0 text-start p-0">Ratings</a>
+                        </div>
+                        <div>
+                            <a href="" class="border-0 text-start p-0">Shop Help</a>
+                        </div>
+                        <div>
+                            <a href="" class="border-0 text-start p-0">Contact Us</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -41,11 +60,21 @@
                 <div class="list-group">
                     <span class="text-white fw-bold pb-3">SITES</span>
                     <div class="footLinks">
-                        <a href="" class="border-0 text-start p-0">DC</a>
-                        <a href="" class="border-0 text-start p-0">MAD Magazine</a>
-                        <a href="" class="border-0 text-start p-0">DC Kids</a>
-                        <a href="" class="border-0 text-start p-0">DC Universe</a>
-                        <a href="" class="border-0 text-start p-0">DC Power Visa</a>
+                        <div>
+                            <a href="" class="border-0 text-start p-0">DC</a>
+                        </div>
+                        <div>
+                            <a href="" class="border-0 text-start p-0">MAD Magazine</a>
+                        </div>
+                        <div>
+                            <a href="" class="border-0 text-start p-0">DC Kids</a>
+                        </div>
+                        <div>
+                            <a href="" class="border-0 text-start p-0">DC Universe</a>
+                        </div>
+                        <div>
+                            <a href="" class="border-0 text-start p-0">DC Power Visa</a>
+                        </div>
                     </div>
                 </div>
             </div>
